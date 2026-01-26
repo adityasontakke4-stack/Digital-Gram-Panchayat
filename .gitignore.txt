@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log
+
+# React
+build/
+.env
+
+# Java / Spring Boot
+target/
+*.log
+
+# IDE
+.vSCode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
