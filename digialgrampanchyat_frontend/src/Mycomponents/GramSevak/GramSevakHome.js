@@ -67,7 +67,7 @@ export default function GramSevakHome()
     <div>
         <h1>GramSevak Dashboard</h1>
         <Outlet></Outlet>
-        </div>
+    </div>
          {/* <h1>Welcome {user && user.first_name}{user && user.last_name}</h1>  */}
      {/* <h1>Welcome {first_name}  {last_name}</h1>  */}
         
