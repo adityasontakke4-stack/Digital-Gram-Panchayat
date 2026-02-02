@@ -1,3 +1,5 @@
+import PanchayatSelect from "./Mycomponents/PanchayatSelect";
+
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 
@@ -28,8 +30,11 @@ function App() {
     <Routes>
 
       
-      <Route path="/" element={<MainLayout />} />
-      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<PanchayatSelect />} />
+
+      <Route path="/Home" element={<MainLayout />} />
+
+      
       <Route path="/Userlogin" element={<Userlogin />} />
       <Route path="/Register" element={<Register />} />
       <Route path="/Aboutus" element={<Aboutus />} />
